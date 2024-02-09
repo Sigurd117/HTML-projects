@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Tekken Page</title>
     <style>
         body {
             margin: 0;
@@ -86,9 +86,28 @@
         }
 
         img {
-            width: 800px;
+            width: 400px;
             Height: 500px;
             background-size: contain;
+        }
+
+        .return-button {
+            display: inline-block;
+            background-color: #333333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+            margin-bottom: 20px;
+        }
+
+        .return-button:hover {
+            background-color: #333333;
+        }
+
+        article {
+            text-align: center;
         }
     </style>
 </head>
@@ -100,9 +119,9 @@
 
 <nav>
     <ul>
-        <li><a href="">Street Fighter</a></li>
-        <li><a href="#">Tekken</a></li>
-        <li><a href="#">King Of Fighters</a></li>
+        <li><a href="StreetFighterPage.html">Street Fighter</a></li>
+        <li><a href="TekkenPage.html">Tekken</a></li>
+        <li><a href="KingOfFightersPage.html">King Of Fighters</a></li>
         <li><a href="#">SoulCaliber</a></li>
     </ul>
 </nav>
@@ -118,15 +137,17 @@
 <div class="container">
     <div class="main-content">
         <h2>Tekken Media</h2>
-        <img class="img" src="images/">
+        <img class="img" src="images/tekken1-poster.jpg">
+        <img class="img" src="images/tekken3-fly.jpg">
         <p></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YYzMEnHfIZs?si=Wd4aoboCw-G6xPrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
 
     <div class="sidebar">
-        <h2>Tekken</h2>
+        <h2>Tekken Links</h2>
         <ul>
-            <li><a href="#">Tekken Games</a></li>
+            <li><a href="#">Tekken Game Series</a></li>
             <li><a href="#">Characters</a></li>
             <li><a href="#">Stages</a></li>
         </ul>
@@ -134,7 +155,7 @@
 </div>
 
 <footer>
-    <p>Footer</p>
+    <p><a href="MainPage.html" class="return-button">Return Home</a></p>
 </footer>
 
 </body>
